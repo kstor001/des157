@@ -148,6 +148,8 @@ footer {
   background-image: url("studio1/images/waves.png");
   clear: both;
   position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   left: 0;
   bottom: 0;
   width: 100%;
