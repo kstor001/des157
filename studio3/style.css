@@ -1,0 +1,12 @@
+section {
+  position: absolute;
+}
+
+img {
+  display: block;
+}
+
+#tekken {
+  top: 50px;
+  left: 90px;
+}
