@@ -1,90 +1,90 @@
 /*stylesheet for portal*/
 
-	
-
 body {
-	margin: auto;
-	text-align: center;
-	font-size:1em;
-	background-image: url("../images/waves.png");
-    background-color: white;
-    background-size: 1366px 768px;
-    background-repeat: no-repeat;
-	
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+  background-image: url("../images/waves.png");
+  background-color: white;
+  background-size: 1366px 768px;
+  background-repeat: no-repeat;
 }
 
 h1 {
-	color: white;
-
+  color: white;
 }
 
 h2 {
-	color: white;
-	text-decoration: underline;
-	
+  color: white;
+  text-decoration: underline;
 }
+
 
 /* unvisited link */
+
 a:link {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
+
 
 /* visited link */
+
 a:visited {
-    color: white;
+  color: white;
 }
+
 
 /* mouse over link */
+
 a:hover {
-    color: hotpink;
+  color: hotpink;
 }
 
+
 /* selected link */
+
 a:active {
-    color: blue;
+  color: blue;
 }
 
 .left {
-	float: left;
-	padding: 25px;
-	margin-left: 200px;
-	margin-right: 20px;
-	
+  float: left;
+  padding: 25px;
+  margin-left: 200px;
+  margin-right: 20px;
 }
 
 .middle {
-	float: left;
-	padding: 25px;
-	margin-left: 50px;
-	margin-right: 20px;
+  float: left;
+  padding: 25px;
+  margin-left: 50px;
+  margin-right: 20px;
 }
 
 .right {
-	float: left;
-	padding: 25px;
-	margin-left: 50px;
-	margin-right: 20px;
+  float: left;
+  padding: 25px;
+  margin-left: 50px;
+  margin-right: 20px;
 }
 
-
 ul {
-	color: white;
-    text-decoration: none;
-    list-style-type: none;
-    
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 ol {
-	color: white;
-    text-decoration: none;
-    
+  color: white;
+  text-decoration: none;
 }
 
 footer {
-	clear: both;
-	position: fixed;
-	bottom: 0;
-	border: 3px solid white;
-	
+  clear: both;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  border: 3px solid white;
 }
