@@ -1,12 +1,215 @@
-section {
-  position: absolute;
+body {
+  background-image: url(images/memory.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
 }
 
-img {
-  display: block;
+h1 {
+  font-size: 2em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+  font-size: 1.2em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-top: -30px;
+}
+
+h3 {
+  font-size: 2em;
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 1050px;
+  margin-top: -70px;
+
+}
+
+article {
+  margin-bottom: 200px;
+}
+
+/*Tekken 4*/
+#disc1 {
+  position: absolute;
+  margin-right: 20px;
 }
 
 #tekken {
-  top: 50px;
-  left: 90px;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 70px;
+}
+
+#jin {
+  display: none;
+  margin-left: 120px;
+  margin-top: 10px;
+  z-index: -1;
+}
+
+#tek4 {
+  display: none;
+  position: absolute;
+  color: antiquewhite;
+  background-color: #a51e2a;
+  max-width: 230px;
+  margin-top: 300px;
+  margin-left: 10px;
+  padding: 20px;
+  padding-left: 180px;
+  border: 2px solid #d2af99;
+  z-index: 0;
+}
+
+/* Kingdom Hearts*/
+#disc2 {
+  position: absolute;
+}
+
+#sora {
+  display: none;
+  margin-left: 500px;
+}
+
+#kingdom {
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 120px;
+}
+
+#khpara {
+  display: none;
+  position: absolute;
+  color: antiquewhite;
+  background-color: #4ca2ed;
+  max-width: 600px;
+  margin-top: -10px;
+  margin-left: 410px;
+  padding: 20px;
+  padding-left: 160px;
+  border: 2px solid #ada4b5;
+  z-index: 0;
+}
+
+/* God of War*/
+#disc3 {
+  position: absolute;
+}
+
+#war {
+  position: absolute;
+  margin-left:965px;
+  margin-top: 105px;
+}
+#kratos {
+  display: none;
+  margin-left: 920px;
+}
+
+#godpara {
+  display:none;
+  position: absolute;
+  margin-left: 910px;
+  color: #9c441c;
+  background-color: #173247;
+  max-width: 200px;
+  border: 2px solid #c79a6f;
+  margin-top: 300px;
+  padding: 20px;
+  padding-left: 160px;
+  z-index: 1;
+}
+
+/* Resident Evil 4*/
+#disc4 {
+  position: absolute;
+}
+
+#evil {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 505px;
+}
+#leon {
+  display: none;
+  margin-left: 20px;
+  margin-top: 380px;
+}
+
+#re4para {
+  display:none;
+  position: absolute;
+  margin-left: 20px;
+  color: #2e231f;
+  background-color: antiquewhite;
+  max-width: 400px;
+  border: 2px solid #c79a6f;
+  margin-top: 660px;
+  padding: 20px;
+  padding-left: 160px;
+  z-index: 1;
+}
+
+/* Final Fantasy*/
+#disc5 {
+  position: absolute;
+}
+
+#fantasy {
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 530px;
+}
+#tidus {
+  display: none;
+  margin-left: 460px;
+  margin-top: 380px;
+}
+
+#fantasypara {
+  display:none;
+  position: absolute;
+  margin-left: 500px;
+  color: #2d65b2;
+  background-color: #e5fffe;
+  max-width: 300px;
+  border: 2px solid #c79a6f;
+  margin-top: 680px;
+  padding: 40px;
+  padding-left: 160px;
+  z-index: 1;
+}
+
+/* Devil May Cry 3*/
+#disc6 {
+  position: absolute;
+}
+
+#devil {
+  position: absolute;
+  margin-left: 950px;
+  margin-top: 530px;
+}
+#dante {
+  display: none;
+  margin-left: 960px;
+  margin-top: 340px;
+}
+
+#dmcpara {
+  display:none;
+  position: absolute;
+  margin-left: 920px;
+  color: black;
+  background-color: #a31112;
+  max-width: 400px;
+  border: 2px solid black;
+  margin-top: 680px;
+  padding: 20px;
+  padding-left: 160px;
+  z-index: 1;
 }
