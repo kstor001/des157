@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
     <title>Chapter 14- Mouse Trail Exercise</title>
     <style>
         * {
@@ -28,14 +28,17 @@
 <body>
     <h1>Chapter 14 - Mouse Trail</h1>
     <h2>open the console to see the results of the script</h2>
+
+    <div class="trail"></div>
     <script>
         // Teal circles will follow the mouse
-        addEventListener("mousemove", function(event){
-  var trail=document.createElement("div");
-  trail.className="trail";
-  trail.style.left= (event.pageX-4) + "px";
-  trail.style.top= (event.pageY-4) + "px";
-  document.body.appendChild(trail);
-  });
+        addEventListener("mousemove", function(event) {
+            var trail = document.createElement("div");
+            trail.className = "trail";
+            trail.style.left = (event.pageX - 4) + "px";
+            trail.style.top = (event.pageY - 4) + "px";
+            document.body.appendChild(trail);
+        });
     </script>
 </body>
+</html>
