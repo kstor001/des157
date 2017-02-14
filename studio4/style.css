@@ -32,7 +32,7 @@ div {
     color: white;
     background-color: #4FC2F8;
     opacity: 0;
-    tipId.style.transition='all 1s';
+    
 }
 
 #happyTip {
