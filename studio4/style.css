@@ -20,6 +20,10 @@ ul {
   margin-top: 72px;
 }
 
+nav {
+  padding-top: 250px;
+}
+
 li {
   display: inline-block;
   position: relative;
