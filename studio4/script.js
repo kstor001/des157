@@ -3,8 +3,8 @@ console.log('reading');
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
-    var time = getDate();
-    console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
+document.getElementById('time').innerHTML = Date();
+  
 
 
 
