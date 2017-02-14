@@ -3,8 +3,10 @@ console.log('reading');
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
-    var time = new Date();
+    var time = getDate();
     console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
+
+
 
     var elements = document.getElementsByTagName('li');
     var tipTimer, tipId;
