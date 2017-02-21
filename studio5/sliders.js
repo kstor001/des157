@@ -21,22 +21,11 @@ $(document).ready(function() {
 
             var ratio = 1 - (ui.position.top + this.height) / this.parHeight;
 
-            document.body.style.backgroundColor = "#F4DA22";
+            document.body.style.backgroundColor = "#F7F76D";
         }
-
     });
 });
 
 function resizeBar(color, ratio) {
     $('.cu-mid', '.cuboid.' + color).height(200 * ratio)
 }
-
-
-// capture button into a variable
-var handle = document.getElementById('colorful-slider.yellow');
-
-// mouseover listener that changes the
-// background color with an anonymous function
-handle.addEventListener('mousedown', function() {
-    document.body.style.background = pink;
-});
