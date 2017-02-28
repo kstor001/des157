@@ -31,18 +31,18 @@ body {
     background-position: center;*/
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
   color: #4391AF;
+  font-size: 16px;
+  margin-bottom: -10px;
+  margin-top: 20px;
 }
 
-h2 {
-  color: #4391AF;
-  text-align: left;
-  /*text-decoration: underline;*/
-}
+
 
 p {
   color: #4391AF;
+  margin-bottom: 50px;
 }
 
 #mySketch {
