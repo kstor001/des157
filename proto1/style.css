@@ -2,14 +2,58 @@ body {
   background-image: url(images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #323232;
 }
 
-.title {
-  margin: 0 auto 0 auto;
-  align-content: center;
-  display: block;
+#prompt {
+  text-align: center;
+  margin: auto;
 }
-
-.emotionsAll {
+#emotionsAll {
   display: none;
+  margin: -600px auto 0 auto;
+  width: 80%
+}
+
+#vibrant {
+  float: left;
+  margin: auto;
+  padding: 80px;
+
+}
+
+#anxious {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#indifferent {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#depressed {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#agitated {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#other {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#title {
+  margin: auto;
+  display: block;
+  text-align: center;
 }
