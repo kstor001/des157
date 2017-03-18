@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
  //onclick change screen from title to emotions
     var title= document.getElementById('title').onclick = function (e) {
-      console.log('clicked title');
       e.target.style.visibility = 'hidden';
       document.getElementById('emotionsAll').style.display = 'block';
     }
@@ -15,20 +14,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
       var x = document.getElementById ('vibrant');
       var y = document.getElementById('emotionsAll');
       var z =document.getElementById('vibe2');
-      var slider=document.getElementById('slider');
-
+      var range=document.getElementById('range');
       if (y.style.display === 'block') {
         y.style.display = 'none';
         z.style.display = 'block';
-        slider.style.display = 'block';
+        range.style.display = 'block';
       }
-    }
 
       function updateSlider(slideAmount) {
         //get element
         var display = document.getElementById ("chosen");
         //show the amount
         display.innerHTML=slideAmount;
+
 
       //get the element
       var pic = document.getElementById("pic");

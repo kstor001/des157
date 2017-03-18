@@ -77,7 +77,7 @@ body {
     margin-top: -400px;
 
 }
-
+/*
 #chosen {
   border-radius:10px;
   width: 45px;
@@ -93,6 +93,7 @@ body {
 
 #slider {
   margin-left: 10px;
+  display: block;
 }
 
 #picHolder {
@@ -107,3 +108,5 @@ input[type='range'] {
   -webkit-border-radius: 5px;
   background-image: -webkit-linear-gradient(top, #000000, #333333, #000000);
 }
+
+*/
