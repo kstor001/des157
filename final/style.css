@@ -1,0 +1,176 @@
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #323232;
+}
+
+#prompt {
+  text-align: center;
+  margin: auto;
+}
+#emotionsAll {
+  display: none;
+  margin: 0px auto 0 auto;
+  width: 80%
+}
+
+#vibrant {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#anxious {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#indifferent {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#depressed {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#agitated {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#other {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#title {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+#vibe2 {
+  display: none;
+  margin-top: 180px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+#dep2 {
+  display: none;
+  margin-top: 180px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+#anx2 {
+  display: none;
+  margin-top: 180px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+#ind2 {
+  display: none;
+  margin-top: 180px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+#agi2 {
+  display: none;
+  margin-top: 180px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+#oth2 {
+  display: none;
+  margin-top: 180px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+#range {
+    -webkit-appearance: slider-vertical;
+    width: 80px;
+    height: 200px;
+
+}
+
+#slider {
+  display: none;
+  margin-top: 150px;
+  margin-left: 200px;
+  float: left;
+}
+
+#yellow {
+  display: none;
+  margin:auto;
+}
+
+#red {
+  display: none;
+  margin:auto;
+}
+
+#orange {
+  display: none;
+  margin:auto;
+}
+
+#green {
+  display: none;
+  margin:auto;
+}
+
+#blue {
+  display: none;
+  margin:auto;
+}
+
+#purple {
+  display: none;
+  margin:auto;
+}
+
+#chosen {
+
+
+}
+
+#slider {
+  margin-left: 10px;
+  display: none;
+}
+
+#picHolder {
+  width: 323px;
+  height: 336px;
+  margin: 10px;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  padding-left:2px; padding-right:2px;
+  -webkit-border-radius: 5px;
+  background-image: -webkit-linear-gradient(top, #000000, #333333, #000000);
+}
+
+*/
+/*added content
