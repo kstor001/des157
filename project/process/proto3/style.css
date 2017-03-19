@@ -1,0 +1,112 @@
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #323232;
+}
+
+#prompt {
+  text-align: center;
+  margin: auto;
+}
+#emotionsAll {
+  display: none;
+  margin: -600px auto 0 auto;
+  width: 80%
+}
+
+#vibrant {
+  float: left;
+  margin: auto;
+  padding: 80px;
+
+}
+
+#anxious {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#indifferent {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#depressed {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#agitated {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#other {
+  float: left;
+  margin: auto;
+  padding: 80px;
+}
+
+#title {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+#vibe2 {
+  display: none;
+  margin-bottom: 0;
+  margin-top: -150px;
+  margin-left: 200px;
+  text-align: center;
+  width: 80%;
+}
+
+#range {
+    -webkit-appearance: slider-vertical;
+    width: 80px;
+    height: 200px;
+    display: none;
+    margin-left: 650px;
+    margin-bottom: 150px;
+    margin-top: -400px;
+
+}
+/*
+#chosen {
+  border-radius:10px;
+  width: 45px;
+  padding-top:10px; padding-bottom:10px;
+  background-image:-webkit-linear-gradient(top, #cccccc, #330000);
+  background-image: -o-linear-gradient(top, #cccccc, #330000);
+  background-image:-moz-linear-gradient(top, #cccccc, #330000);
+  text-align:center;
+  color:#ffffff;
+  font-weight:bold; font-size:large;
+  margin-left:40px;
+}
+
+#slider {
+  margin-left: 10px;
+  display: block;
+}
+
+#picHolder {
+  width: 323px;
+  height: 336px;
+  margin: 10px;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  padding-left:2px; padding-right:2px;
+  -webkit-border-radius: 5px;
+  background-image: -webkit-linear-gradient(top, #000000, #333333, #000000);
+}
+
+*/
